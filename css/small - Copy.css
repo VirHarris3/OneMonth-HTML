@@ -1,0 +1,34 @@
+
+
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.Sunset img {
+  border-radius: 0;
+}
+
+section.intro {
+	border-radius: 0;
+}
+
+section.contact {
+	border-radius: 0;
+}
+
+section.map {
+	border-radius: 0;
+	min-width: 60%;	
+}
+
+section.footer {
+	border-radius: 0;
+}
+
+aside.right, aside.left {
+  text-align: center;
+  float: inherit;
+}
+

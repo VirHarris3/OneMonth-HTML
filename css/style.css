@@ -1,0 +1,151 @@
+/*
+ * General Styles
+*/
+
+
+body {
+  background: url('../images/Hawaii-Party.jpg');
+  font-family: 'Open Sans', arial, sans-serif;
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.75;
+  margin-bottom: 28px;
+  font-weight: bold;
+}
+
+
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+/*
+ * Heading Styles
+*/
+html {
+  font-size: 100%;
+}
+
+h1, h2 {
+  font-family: 'Open Sans', arial, sans-serif;
+  font-weight: bold;
+  color: blue;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2.3rem;
+}
+
+/*
+ * Container Styles
+*/
+
+
+.container {
+  width: 600px;
+  margin: 100px auto;
+}
+
+.container section:nth-child(odd) {
+  background: grey;
+}
+
+.container section:nth-child(even) {
+  background: red;
+}
+
+.container section:first-child {
+  background:none;
+}
+
+.Sunset {
+  line-height: 0;
+
+}
+
+.Sunset img {
+  width: 100%;
+  border-radius: 20px 20px 20px 20px;
+  border:4px solid red;
+}
+ 
+ .dancer img {
+  width: 2.5rem;
+ }
+
+}
+section.intro, section.contact {
+  padding-left: 40px;
+}
+section.intro {
+   border-radius: 20px 20px 20px 20px;
+   border: 4px solid red;
+   padding-left: 20px;
+   padding-top: 10px;
+
+}
+
+section.contact {
+  border-radius: 20px 20px 20px 20px;
+ border: 4px solid red;
+ padding-left: 20px;
+   padding-top: 10px;
+   font-weight: bold;
+}
+
+
+section.map {
+  border-radius: 20px 20px 20px 20px;
+  border: 4px solid red;
+
+}
+
+section.footer {
+  background: white;
+  border-radius: 20px 20px 20px 20px;
+  border: 4px solid red;
+   padding-left: 20px
+  padding-top: 20px;
+
+}
+
+
+
+aside.left {
+  float: left;
+
+}
+
+aside.right {
+  float: right;
+}
+
+aside {
+  margin-right: 1.5rem;
+  margin-bottom: 0.625rem;
+}
